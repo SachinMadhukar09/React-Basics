@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Classcomponents from './components/Classcomponents';
+import Functionalcomponents from './components/Functionalcomponenets';
+import Managestate from './components/Managestate';
+import Hooks from './components/Hooks';
+import Array from './components/Array';
+import Whizlabs from './components/Whizlabs';
 
-function App() {
+
+
+
+function App(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Whizlabs/>
+      {/* <Classcomponents name="Sachin"  age="20"/> */}
+      {/* <Functionalcomponents name="Raj"  age="15" /> */}
+      {/* <Managestate/> */}
+      {/* <Hooks/> */}
+      {/* <Array/> */}
     </div>
-  );
+  )
 }
-
 export default App;

@@ -1,0 +1,33 @@
+.main {
+  width: 90%;
+  display: flex;
+  padding: 100px 10px 0px 10px;
+}
+.left {
+  width: 10%;
+  display: flex;
+}
+.options {
+    width: 100%;
+    margin-left: 20px;
+    padding-left:15px;
+    border-left: 4px solid black;
+}
+.heading {
+  font-size: 10px;
+}
+.one {
+  margin: 1.5%;
+}
+.Content {
+  width: 60%;
+  padding: 40px 0px 10px 50px;
+}
+.dropdown {
+  width: 10%;
+  border: 1px solid black;
+  display: flex;
+  margin-left: 25%;
+  justify-content: flex-end;
+  position: sticky;
+}
