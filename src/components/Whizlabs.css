@@ -1,33 +1,53 @@
-.main {
-  width: 90%;
-  display: flex;
-  padding: 100px 10px 0px 10px;
+.whats-new-main{
+  display:flex;
+  justify-content: space-between;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  width:80%;
 }
-.left {
+.whats-new-middle{
+  /* padding: 10% 1% 1% 1%; */
+  width:75%;
+  margin: 2%;
+}
+.whats-new-left{
+  /* display:flex; */
+  padding-left:50px;
+  width:15%;
+  margin-right: 2%;
+}
+.whats-new-heading{
+  font-size: 20px;
+}
+.whats-new-left-heading{
+  cursor: pointer;
+  border-left: 4px solid black;
+  /* font-size:15px; */
+  width: 100%;
+  margin:2%;
+  padding-left: 10px;
+}
+.whats-new-dropdown{
   width: 10%;
-  display: flex;
+  margin: 2%;
+  
 }
-.options {
-    width: 100%;
-    margin-left: 20px;
-    padding-left:15px;
-    border-left: 4px solid black;
+.whats-new-select{
+  width:100%;
+  margin: 2%;
+  padding: 10%;
+  border:none;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
-.heading {
-  font-size: 10px;
+.whats-new-select option{
+  padding-top: 10px;
+  font-size:15px;
+  background-color: aqua;
+  border:none;
+  -webkit-appearance: none;
+
 }
-.one {
-  margin: 1.5%;
-}
-.Content {
-  width: 60%;
-  padding: 40px 0px 10px 50px;
-}
-.dropdown {
-  width: 10%;
-  border: 1px solid black;
-  display: flex;
-  margin-left: 25%;
-  justify-content: flex-end;
-  position: sticky;
-}
+
+
+
