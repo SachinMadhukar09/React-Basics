@@ -10,6 +10,8 @@ import Todo from "./components/Todo";
 import Navbar from "./components/Navbar";
 import Movielist from "./components/Movielist";
 import Movieitem from "./components/Movieitem";
+import Forms from "./components/Forms";
+import Authentication from "./components/Authentication";
 
 // let age = 13
 // let value =
@@ -18,9 +20,11 @@ import Movieitem from "./components/Movieitem";
 function App() {
   return (
     <div className="App">
-      <Navbar/> 
+      <Authentication/>
+     {/* <Forms/> */}
+      {/* <Navbar/>  */}
       {/* <Movieitem/> */}
-      <Movielist/>
+      {/* <Movielist/> */}
       {/* <Todo/> */}
       {/* <Basics/> */}
       {/* <Whizlabs/> */}
