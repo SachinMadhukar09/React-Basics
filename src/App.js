@@ -12,6 +12,7 @@ import Movielist from "./components/Movielist";
 import Movieitem from "./components/Movieitem";
 import Forms from "./components/Forms";
 import Authentication from "./components/Authentication";
+import NewTodo from "./components/NewTodo";
 
 // let age = 13
 // let value =
@@ -20,7 +21,8 @@ import Authentication from "./components/Authentication";
 function App() {
   return (
     <div className="App">
-      <Authentication/>
+      <NewTodo/>
+      {/* <Authentication/> */}
      {/* <Forms/> */}
       {/* <Navbar/>  */}
       {/* <Movieitem/> */}

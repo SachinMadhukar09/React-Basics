@@ -16,9 +16,4 @@ body {
   background-color:red;
   background-color: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
-input {
-  margin-top: 10px;
-}
-h1 {
-  color: red;
-}
+
