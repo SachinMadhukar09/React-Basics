@@ -18,14 +18,17 @@ import Navbar from "./components/Routing/Navbar";
 import Home from "./components/Routing/Home";
 import ContactUs from "./components/Routing/ContactUs";
 import Services from "./components/Routing/Services"
+import Map from "./components/Map"
 
 import {BrowserRouter , Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-    {/* React Routing */}
+      <Map/>
 
+    {/* React Routing */}
+{/*     
     <BrowserRouter>
     <Navbar/>
     <Route path='/home' component={Home} exact />
@@ -33,11 +36,7 @@ function App() {
     <Route path='/contactus' component={ContactUs} exact />
     <Route path='/services' component={Services} exact />
 
-    </BrowserRouter>
-
-
-
-
+    </BrowserRouter> */}
 
 
       {/* <NewTodo/> */}
