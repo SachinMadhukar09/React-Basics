@@ -21,11 +21,13 @@ import Services from "./components/Routing/Services"
 import Map from "./components/Map"
 
 import {BrowserRouter , Route} from "react-router-dom";
+import LocalStorage from "./components/LocalStorage";
 
 function App() {
   return (
     <div className="App">
-      <Map/>
+      <LocalStorage/>
+      {/* <Map/> */}
 
     {/* React Routing */}
 {/*     
