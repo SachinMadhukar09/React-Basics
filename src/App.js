@@ -14,7 +14,7 @@ import Forms from "./components/Forms";
 import Authentication from "./components/Authentication";
 import NewTodo from "./components/NewTodo";
 // import ReactRouter from "./components/ReactRouter";
-import Navbar from "./components/Routing/Navbar";
+// import Navbar from "./components/Routing/Navbar";
 import Home from "./components/Routing/Home";
 import ContactUs from "./components/Routing/ContactUs";
 import Services from "./components/Routing/Services"
@@ -22,11 +22,15 @@ import Map from "./components/Map"
 
 import {BrowserRouter , Route} from "react-router-dom";
 import LocalStorage from "./components/LocalStorage";
+import Navbar from "./components/Facebook/Navbar"
+import Body from "./components/Facebook/Body";
 
 function App() {
   return (
     <div className="App">
-      <LocalStorage/>
+      <Navbar/>
+      <Body/>
+      {/* <LocalStorage/> */}
       {/* <Map/> */}
 
     {/* React Routing */}
