@@ -24,12 +24,17 @@ import {BrowserRouter , Route} from "react-router-dom";
 import LocalStorage from "./components/LocalStorage";
 import Navbar from "./components/Facebook/Navbar"
 import Body from "./components/Facebook/Body";
+import Dashboard from "./components/Facebook/Dashboard";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Body/>
+      
+    {/* <BrowserRouter> */}
+      {/* <Navbar/> */}
+      {/* <Route path='/' component={Body} exact/> */}
+      {/* <Route path='/dashboard' component={Dashboard} exact/> */}
+    {/* </BrowserRouter> */}
       {/* <LocalStorage/> */}
       {/* <Map/> */}
 
