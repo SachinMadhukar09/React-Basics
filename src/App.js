@@ -26,10 +26,21 @@ import Navbar from "./components/Facebook/Navbar"
 import Body from "./components/Facebook/Body";
 import Dashboard from "./components/Facebook/Dashboard";
 
+import  Moviescontext  from "./components/Context API/Moviescontext";
+import A from "./components/Context API/A"
+import B from "./components/Context API/B"
+
 function App() {
   return (
     <div className="App">
-      
+
+      <h1>Context API</h1>
+      <Moviescontext>
+
+      <A/>
+      <B/>
+      </Moviescontext>
+
     {/* <BrowserRouter> */}
       {/* <Navbar/> */}
       {/* <Route path='/' component={Body} exact/> */}
