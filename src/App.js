@@ -8,7 +8,7 @@ import Whizlabs from "./components/Whizlabs";
 import Basics from "./components/Basics";
 import Todo from "./components/Todo";
 // import Navbar from "./components/Navbar";
-import Movielist from "./components/Movielist";
+// import Movielist from "./components/Movielist";
 import Movieitem from "./components/Movieitem";
 import Forms from "./components/Forms";
 import Authentication from "./components/Authentication";
@@ -22,7 +22,7 @@ import Map from "./components/Map"
 
 import {BrowserRouter , Route} from "react-router-dom";
 import LocalStorage from "./components/LocalStorage";
-import Navbar from "./components/Facebook/Navbar"
+// import Navbar from "./components/Facebook/Navbar"
 import Body from "./components/Facebook/Body";
 import Dashboard from "./components/Facebook/Dashboard";
 
@@ -30,16 +30,29 @@ import  Moviescontext  from "./components/Context API/Moviescontext";
 import A from "./components/Context API/A"
 import B from "./components/Context API/B"
 
+import Navbar from "./components/Movie App/Navbar"
+import Addmovie from "./components/Movie App/Addmovie"
+import Movielist from "./components/Movie App/Movielist"
+import MoviesContext from './components/Movie App/MoviesContext'
+
 function App() {
   return (
     <div className="App">
 
+      <MoviesContext>
+
+      <Navbar/>
+      <Addmovie/>
+      <Movielist/>
+      </MoviesContext>
+
+
+{/* 
       <h1>Context API</h1>
       <Moviescontext>
-
       <A/>
       <B/>
-      </Moviescontext>
+      </Moviescontext> */}
 
     {/* <BrowserRouter> */}
       {/* <Navbar/> */}
