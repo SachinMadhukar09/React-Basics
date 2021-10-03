@@ -15,7 +15,7 @@ import Authentication from "./components/Authentication";
 import NewTodo from "./components/NewTodo";
 // import ReactRouter from "./components/ReactRouter";
 // import Navbar from "./components/Routing/Navbar";
-import Home from "./components/Routing/Home";
+// import Home from "./components/Routing/Home";
 import ContactUs from "./components/Routing/ContactUs";
 import Services from "./components/Routing/Services"
 import Map from "./components/Map"
@@ -35,16 +35,21 @@ import Addmovie from "./components/Movie App/Addmovie"
 import Movielist from "./components/Movie App/Movielist"
 import MoviesContext from './components/Movie App/MoviesContext'
 
+import Home from "./components/HTTP Methods/Home"
+
 function App() {
   return (
     <div className="App">
 
+<Home/>
+
+{/* 
       <MoviesContext>
 
       <Navbar/>
       <Addmovie/>
       <Movielist/>
-      </MoviesContext>
+      </MoviesContext> */}
 
 
 {/* 
